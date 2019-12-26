@@ -14,7 +14,7 @@
     //vue提供的不使用template的渲染方式，因为要控制组件内部的solt是否渲染，template不方便操作
     //当functional: true的时候，组件是无状态的也是无实例的，无法使用this传参，官方提供了context用于数据的传递
     // eslint-disable-next-line no-unused-vars,vue/require-render-return
-    render: (createElement, context) => {
+    render(createElement, context) {
       //从服务器获取当前的权限
       const currentAuth = getAuth();
       //解构赋值，props和scopedSlots是vue提供的字段，可以从context对象中获取相应的数据
