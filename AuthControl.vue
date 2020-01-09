@@ -1,5 +1,5 @@
 <script>
-  import { getAuth } from "@/api/xxx"
+  import { getAuth } from "@/api/xxx.xx.x"
   export default {
     name: "AuthControl",
     //表示这是一个函数式组件
