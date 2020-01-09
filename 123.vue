@@ -7,7 +7,8 @@
         name: "123",
         data() {
             return {
-                key: value
+                key: value，
+                a:1
             }
         },
     }
