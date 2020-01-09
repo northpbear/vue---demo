@@ -8,7 +8,7 @@
         data() {
             return {
                 key: value,
-                a:1
+                a:'aaaaa'
             }
         },
     }
